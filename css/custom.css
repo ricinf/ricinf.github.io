@@ -1,0 +1,20 @@
+.nav-bar-background {
+    background-color: #F75252;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: black;
+}
+
+  @keyframes opacity {
+    0%   { opacity: 1; }
+    100% { opacity: 0.3; }
+  }
+
+nav a img:hover {
+    animation: opacity 1s;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
